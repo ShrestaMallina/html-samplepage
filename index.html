@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile with css and html without bootstrap & js</title>
+    <style>
+        
+        .container > .profile > .name > .symbols > .theory > .address{
+            display: flex;
+            position: absolute;
+           margin-top: 20px;
+            
+        }
+       .container{
+        display: grid;
+        height: 600px;
+        width: 600px;
+        grid-template-rows: 200px 100px 100px 200px 200px ;
+        background-color: aliceblue;
+       }
+       .profile{
+        grid-row: span 1;
+        background-image:linear-gradient(to right,
+                    rgba(255, 0, 0, 0),
+                    rgba(225, 28, 127, 0.58)); 
+ }
+ div > .profile > img{
+position: absolute;
+left: 15%;
+margin-top: 25px;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+}
+.name{
+    grid-row: span 1;
+    text-align: center;
+color: rgb(18, 18, 18);
+font-family: sans-serif;
+
+
+}
+.symbols{
+    grid-row: span 1;
+    text-align: center;
+color: black;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+.theory{
+    grid-row: span 1;
+    text-align: center;
+color: black;
+font-family: sans-serif;
+font-size: 20px;
+}
+ .address{
+    grid-row: span 1;
+    background-color: bisque;
+    text-align: center;
+    font-size: 25px;
+ }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile"><img src="D:\tom\webapps\Forward Secure Public Key Encryption with Keyword Search\images\muralikrishna.jpg"> </div>
+        <div class="name">Murali Krishna<br>@MuraliKrishna></div>
+        <div class="symbols">	&#xf2b9: +9701072409<hr></div>
+        <div class="theory"> I am a photographer , I can picture edits, videos<br>photos which can mersimerize of the <br>weddings lorem ipsum<br>sun dun gun gtun ghyi<br> lorem ipusum bri mjike bghti nhjyu </div>
+        <div class="address">Address <hr>Teacher's colony, K SAVARAM, undrajavaram mandal, west Godavari, 534216</div>
+    </div>
+    
+</body>
+</html>
